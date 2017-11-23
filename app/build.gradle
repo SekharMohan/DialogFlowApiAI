@@ -37,4 +37,8 @@ dependencies {
 //    Gson
     compile 'com.google.code.gson:gson:2.7'
     annotationProcessor 'org.apache.logging.log4j:log4j-core:2.2'
+
+//    Mobile vision
+    compile 'com.google.android.gms:play-services-vision:9.4.0+'
+
 }

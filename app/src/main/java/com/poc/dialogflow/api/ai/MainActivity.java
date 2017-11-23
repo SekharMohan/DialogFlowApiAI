@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements AIButton.AIButton
 
     private void initDialogFlow() {
 
-        final AIConfiguration config = new AIConfiguration(Config.ACCESS_TOKEN,
+        final AIConfiguration config = new AIConfiguration(Config.WEATHER_APP_ACCESS_TOKEN,
                 AIConfiguration.SupportedLanguages.English,
                 AIConfiguration.RecognitionEngine.System);
 
